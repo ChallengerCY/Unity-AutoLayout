@@ -1,7 +1,7 @@
 # Unity-AutoLayout
 **Unity-AutoLayout**
 
-![AutoLayout](https://github.com/ChallengerCY/Unity-AutoLayout/blob/master/Unity-AutoLayout/Picture%26Gif/UnityAutoLayout.gif)
+>![AutoLayout](https://github.com/ChallengerCY/Unity-AutoLayout/blob/master/Unity-AutoLayout/Picture%26Gif/UnityAutoLayout.gif)
 
 >黄色绿色代表布局元素使用了Flexible控制元素的大小。
 >
@@ -20,7 +20,7 @@
 **Understanding Layout Elements**
 >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;自动布局系统是基于布局元素和布局控制器。布局元素是一个必须带有 Rect Transform的组件和其他随意组件的元素。布局元素准确的知道他自己的大小。布局元素不会直接设置它们的大小，但是通过布局控制器提供的属性可以计算它们的大小。
 
-![LayoutElementInspector](https://github.com/ChallengerCY/Unity-AutoLayout/blob/master/Unity-AutoLayout/Picture%26Gif/UI_LayoutElementInspector.png)
+>![LayoutElementInspector](https://github.com/ChallengerCY/Unity-AutoLayout/blob/master/Unity-AutoLayout/Picture%26Gif/UI_LayoutElementInspector.png)
 
 >布局元素有定义他们自己的属性:
 >
@@ -51,14 +51,16 @@ Layout Element组件可以让你重写一个或多个布局属性的值。勾选
 
 **Content Size Fitter**
 
-![Content Size Fitter](https://github.com/ChallengerCY/Unity-AutoLayout/blob/master/Unity-AutoLayout/Picture%26Gif/UI_ContentSizeFitterInspector.png)
+>![Content Size Fitter](https://github.com/ChallengerCY/Unity-AutoLayout/blob/master/Unity-AutoLayout/Picture%26Gif/UI_ContentSizeFitterInspector.png)
+>
 >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Content Size Fitter功能是作为一个layout controller，他控制自己布局元素的大小。自动布局最简单的例子是向Text组件添加Content Size Fitter。
 如果将Horizontal Fit 或者 Vertical Fit设置成Preferred。Rect Transform将会调整他的宽或者高去适应文本内容。
 
 
 **Aspect Ratio Fitter**
 
-![Aspect Ratio Fitter](https://github.com/ChallengerCY/Unity-AutoLayout/blob/master/Unity-AutoLayout/Picture%26Gif/UI_AspectRatioFitterInspector.png)
+>![Aspect Ratio Fitter](https://github.com/ChallengerCY/Unity-AutoLayout/blob/master/Unity-AutoLayout/Picture%26Gif/UI_AspectRatioFitterInspector.png)
+>
 >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Aspect Ratio Fitter通过比例控制布局元素的大小。他可以调整高度适应宽度，反之亦然。或者可以使元素适配它的父物体或包含它的父物体。Aspect Ratio Fitter 不考虑布局信息例如minimum size 和 preferred size。
 
 **Layout Groups**
